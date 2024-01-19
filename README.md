@@ -15,7 +15,7 @@ Welcome to the JavaScript Quiz Game! Test your coding knowledge and challenge yo
 ## Questions API
 The questions in this quiz game are sourced from the **quizzy-api**. If you're interested in contributing questions or using the API for your own projects, check out the API documentation. (https://github.com/Faisalmalik01/quizzy-api.git).
 
-4. ## How to Play
+ ## How to Play
 1. Play the game online by simply clicking [here](https://faisalmalik01.github.io/QuizzyJSChallenge/).
 2. Start the quiz and answer each question at your own pace.
 3. See your score and challenge your friends to beat it!
