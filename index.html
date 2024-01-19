@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz.js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript Quiz</h1>
+      <p>Do you know JS? Find out!</p>
+    </header>
+
+    <main>
+      <div id="statement" class="question-container"></div>
+
+      <div id="options" class="options-container">
+        <button name="true" value="true">true</button>
+        <button name="false" value="false">false</button>
+      </div>
+
+      <div id="explanation" class="explanation-container"></div>
+      <p id="score" class="score-container">Score: 0</p>
+      <button class="nxtQuestion" disabled="">Next Question</button>
+    </main>
+
+    <div id="finalScore" class="final-score-container">
+      <h2>Your Final Score:</h2>
+      <p id="finalScoreValue">0</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

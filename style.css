@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+main {
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em 0;
+  min-height: 2em;
+  font-weight: bold;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+button {
+  padding: 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #8fce4b;
+}
+
+.incorrect {
+  background-color: #f76d57;
+}
+
+.explanation-container {
+  padding: 1em;
+  text-align: center;
+}
+
+.score-container {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.nxtQuestion {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.nxtQuestion:hover {
+  background-color: #45a049;
+}
+
+.final-score-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+}
+#finalScoreValue {
+  font-size: 2em;
+  font-weight: bold;
+}
